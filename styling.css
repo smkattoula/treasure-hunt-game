@@ -1,0 +1,54 @@
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Bangers';
+}
+h2{
+    display:flex;
+    justify-content: center;
+    font-family: 'Bangers';
+}
+.table{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+}
+.rulesList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Bangers';
+}
+#movesLeft{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Bangers';
+}
+#restart{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-image: url("https://wallup.net/wp-content/uploads/2017/03/28/438591-water-nature-beach-sea-horizon-long_exposure.jpg");
+    background-position: center;
+    background-attachment: fixed;
+}
+td{
+    border: 3px solid black;
+    background-color: #e6f9ff;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    opacity: 0.9;
+    transition-duration: 1s;
+}
+td:hover {
+    border: 3px solid black;
+    background-color: white;
+    background-size: cover;
+}
+footer{
+    font-family: 'Bangers';
+}
