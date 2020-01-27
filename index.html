@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Treasure Hunt</title>
+        <link rel="shortcut icon" href="http://pngimg.com/uploads/treasure_chest/treasure_chest_PNG41.png" />
+        <link rel="stylesheet" href="styling.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers&display=swap">
+    </head>
+    <body>
+
+        <audio src= "beachMusic.mp3" controls autoplay>
+            Audio is not supported by your browser.
+        </audio>
+        <h1 id="top">Treasure Hunt Game</h1>
+        <h2>Game Rules</h2>
+        <ol class="rulesList">
+            <li>Use your limited amount of moves to reveal the treasure.</li>
+            <li>Be careful as you might find a bomb. If you do, you lose.</li>
+            <li>Find the treasure to win!</li>
+        </ol>
+        <div class="table">
+        <table>
+            <tr>
+                <td onClick ="treasure(1)" id=1>?</td>
+                <td onClick ="treasure(2)" id=2>?</td>
+                <td onClick ="treasure(3)" id=3>?</td>
+                <td onClick ="treasure(4)" id=4>?</td>
+                <td onClick ="treasure(5)" id=5>?</td>
+            </tr>
+            <tr>
+                <td onClick ="treasure(6)" id=6>?</td>
+                <td onClick ="treasure(7)" id=7>?</td>
+                <td onClick ="treasure(8)" id=8>?</td>
+                <td onClick ="treasure(9)" id=9>?</td>
+                <td onClick ="treasure(10)" id=10>?</td>
+            </tr>
+            <tr>
+                <td onClick ="treasure(11)" id=11>?</td>
+                <td onClick ="treasure(12)" id=12>?</td>
+                <td onClick ="treasure(13)" id=13>?</td>
+                <td onClick ="treasure(14)" id=14>?</td>
+                <td onClick ="treasure(15)" id=15>?</td>
+            </tr>
+
+            <tr>
+                <td onClick ="treasure(16)" id=16>?</td>
+                <td onClick ="treasure(17)" id=17>?</td>
+                <td onClick ="treasure(18)" id=18>?</td>
+                <td onClick ="treasure(19)" id=19>?</td>
+                <td onClick ="treasure(20)" id=20>?</td>
+            </tr>
+
+            <tr>
+                <td onClick ="treasure(21)" id=21>?</td>
+                <td onClick ="treasure(22)" id=22>?</td>
+                <td onClick ="treasure(23)" id=23>?</td>
+                <td onClick ="treasure(24)" id=24>?</td>
+                <td onClick ="treasure(25)" id=25>?</td>
+            </tr>
+        </table>
+        </div>
+        <p id='movesLeft'>
+            Moves Left: 8
+        </p>
+        <div id="restart">
+            <button style="font-size: 20px"type="button" onClick ="reset()">Restart Game</button>
+        </div>
+        <script type="text/javascript" src="./treasurehunt.js"></script>
+    </body>
+    <footer>
+        <br /><a href="#top">Return to Top</a>
+        <br /><a href="https://en.wikipedia.org/wiki/Treasure_chest_(disambiguation)" target="_blank">Wiki Treasure Chest</a>
+        <br />Created by: Jeremy and Shaker
+    </footer>
+
+</html>
